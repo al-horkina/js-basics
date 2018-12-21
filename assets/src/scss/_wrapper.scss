@@ -1,0 +1,15 @@
+.wrapper {
+
+    &--bg-gray {
+      background-color: $color-gray;
+    }
+
+    &__inner {
+      @include flex-centered();
+    }
+
+  &__logo {
+    width: 100%;
+    height: auto;
+  }
+}
